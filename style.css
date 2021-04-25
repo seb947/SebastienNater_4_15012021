@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgba(255, 255, 255, 1);
 }
 
 .d-bloc .a-btn:hover,
@@ -677,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .tight-width-whitespace {
@@ -700,8 +700,11 @@ p {
 }
 
 .social {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: 8px;
 }
 
 h2 {
@@ -1025,6 +1028,13 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+    .col-sm-4 > ul > li {
+        margin-top: 5px;
+    }
+
+    .footer-ul {
+        margin: 10px 0 0 10px;
     }
 }
 
