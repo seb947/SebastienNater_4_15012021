@@ -7,6 +7,20 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.citation
+{
+    font-family: "helvetica";
+    font-weight: 400;
+    font-size: 19px;
+    font-style: italic;
+    color: #575757!important;
+}
+
+.citation__auteur
+{
+    font-size: 14px;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -701,7 +715,7 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: 20px auto 20px auto;
 }
 
 h2 {
